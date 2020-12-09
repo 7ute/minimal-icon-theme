@@ -1,0 +1,29 @@
+{
+    "fonts": [
+        {
+            "id": "octicons",
+            "size": "120%",
+            "src": [
+                {
+                    "format": "woff",
+                    "path": "../fonts/octicons.woff"
+                }
+            ],
+            "style": "normal",
+            "weight": "normal"
+        }
+    ],
+    "iconDefinitions": {
+        "_folder": {
+            "fontCharacter": "\\f016",
+            "fontId": "octicons"
+        },
+        "_file": {
+            "fontCharacter": "\\f102",
+            "fontId": "octicons"
+        }
+    },
+    "file": "_file",
+    "folder": "_folder",
+    "fileExtensions": {}
+}

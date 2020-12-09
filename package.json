@@ -1,0 +1,30 @@
+{
+    "name": "minimal-icon-theme",
+    "displayName": "Minimal Icon Theme",
+    "description": "Minimal icon pack with file types only, to reduce distraction.",
+    "version": "1.0.0",
+    "publisher": "7ute",
+    "author": {
+        "email": "contact@7ute.fr",
+        "name": "7ute"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/7ute/minimal-icon-theme"
+    },
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "iconThemes": [
+            {
+                "id": "minimal-icon-theme",
+                "label": "Minimal Icons",
+                "path": "./fileicons/minimal-icon-theme.json"
+            }
+        ]
+    }
+}
