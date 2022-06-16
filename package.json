@@ -2,6 +2,11 @@
     "name": "minimal-icon-theme",
     "displayName": "Minimal Icon Theme",
     "description": "Minimal icon pack with file types only, to reduce distraction.",
+    "keywords": [
+        "icons",
+        "primer",
+        "octicons"
+    ],
     "version": "1.0.0",
     "publisher": "7ute",
     "author": {
@@ -26,5 +31,9 @@
                 "path": "./fileicons/minimal-icon-theme.json"
             }
         ]
+    },
+    "galleryBanner": {
+        "color": "#363637",
+        "theme": "dark"
     }
 }
